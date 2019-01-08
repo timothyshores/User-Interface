@@ -190,4 +190,30 @@ address {
 .copyright {
 	text-align: center;
 	margin: 40px;
+	font-size: 14px;
+}
+
+/* Stretch Goal:
+ Give the navigation a background color and have it be fixed to the top of the page so that it scrolls with the user. You will want to study what z-index means in case you encounter any issues when you scroll. */
+
+.nav-header {
+	background: rgb(97, 97, 97);
+	position: fixed;
+	z-index: 10;
+	width: 1000px;
+	height: 65px;
+}
+
+.nav-header nav a {
+	margin-bottom: 10px;
+	display: inline-block;
+	color: white;
+}
+
+.header {
+	margin-top: 100px;
+}
+
+.logo {
+	filter: brightness(0) invert(1);
 }
