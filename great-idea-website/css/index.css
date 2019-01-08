@@ -84,4 +84,57 @@ body nav a {
 }
 .logo {
 	margin-left: 25px;
+	padding-top: 20px;
+	position: relative;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+.interactive-logo {
+	margin: 100px 40px;
+}
+
+.interactive-logo h1 {
+	text-align: center;
+	width: 49%;
+	position: relative;
+	left: 75px;
+}
+
+.logo {
+	width: 15%;
+}
+
+.get-started-btn {
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-size:16px;
+	padding:16px 31px;
+	text-decoration:none;
+	margin: 10px;
+	margin-left: 110px;
+}
+
+#code-circle {
+	position: relative;
+	left: 100px;
+}
+
+.header, 
+.header .interactive-logo  {
+	display: inline-block;
+}
+.two-column {
+	border-top: 1px solid black;
+}
+
+.two-column .features,
+.two-column .about {
+	display: inline-block;
+	width: 47%;
+	margin: 35px 10px;
 }
