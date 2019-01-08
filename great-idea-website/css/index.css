@@ -54,7 +54,10 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	/* margin-top: 20px; */
+	width: 1100px;
+	margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +67,21 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.nav-header {
+	margin-top: 20px;
+}
+
+body div nav {
+	display: inline-block;
+}
+
+body nav a {
+	color: grey;
+	text-decoration: none;
+	margin: 0 30px;
+	width 80%;
+}
+.logo {
+	margin-left: 25px;
+}
