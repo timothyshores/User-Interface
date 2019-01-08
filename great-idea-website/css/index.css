@@ -53,9 +53,10 @@ table {
 }
 
 html, body {
-    height: 100%;
-	font-family: 'Titillium Web', sans-serif;
-	/* margin-top: 20px; */
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.15;
+	/* font-family: 'Titillium Web', sans-serif; */
 	width: 1000px;
 	margin: 0 auto;
 }
